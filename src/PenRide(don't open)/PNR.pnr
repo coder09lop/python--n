@@ -1,0 +1,28 @@
+import random
+
+print("benvenuto nell PenRide versione 12.56.1")
+print("cosa vuoi fare?")
+print(" digita '1' per iniziare protocolli")
+sceltainiziale = input()
+if sceltainiziale == '1':
+    print("ok controllo della stabilità dei seguenti server")
+    print("però prima di continuare con i protocolli inserire il proprio account")
+    print("ricavato dall 'account-creator.py'")
+    print("inserire nome utente")
+    acc = input()
+    if acc == '0987' 'omsa':
+        print("account admin bentornato Omar")
+    else:
+        print("benvenuto")
+        print(acc)
+    print("inserisca la password")
+    passo = input()
+    if passo == 'omsa':
+         print("bentornato admin")
+else:
+        print("ok ora òe diamo il suo protocollo")
+protocolli =('0097', '858', '848849', '4988', '8473893')
+print("ora il protocollo è di")
+print(random.choice(protocolli))
+print("vai nella lista e controlla se è un numero neutro negativo ho positivo")
+omasa = input()

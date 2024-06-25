@@ -1,0 +1,20 @@
+print("Benvenuto nell Brasher")    
+print("cosa vuoi fare?")
+print("digita '1' se vuoi avviare le operazioni sul server '2' se vuoi aggiornare il blusher")
+sceltainiziale = input()
+if sceltainiziale == '1':
+    print("iniziano le operazioni prima inserire ip del server")
+    ipserver = input()
+    print("ok quindi il tuo server è")
+    print(ipserver)
+    print("ora inserisci il tuo PDS(protocollo di sicurezza)")
+    PDS = input()
+    if PDS == '8473893':
+        print("il tuo protocollo è positivo contattare se il protocollo è positivo per più di 2 giorni")
+    else:
+        print("il tuo protocollo è negativo quindi è tutto apposto")
+        oms = input()
+
+    
+else:
+    print()
